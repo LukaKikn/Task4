@@ -37,12 +37,14 @@ class Rectangle {
     }
 
     public void setWidth(double width) {
+        this.width = width;
         if(width >= MAX_WIDTH){
             this.width = MAX_WIDTH;
         }
     }
 
     public void setLength(double length) {
+        this.length = length;
         if(length >= MAX_LENGTH){
             this.length = MAX_LENGTH;
         }
